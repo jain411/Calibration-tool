@@ -1,0 +1,282 @@
+------------------------------------------------------------------------
+r127 | (no author) | 2014-08-04 15:19:01 +0530 (Mon, 04 Aug 2014) | 3 lines
+
+* trunk modified to add CRO on the main window.
+* Navigator window loads current scan in all the versions now
+
+------------------------------------------------------------------------
+r121 | (no author) | 2014-06-26 16:32:22 +0530 (Thu, 26 Jun 2014) | 1 line
+
+New branch SiM68 created from SiM62
+------------------------------------------------------------------------
+r118 | (no author) | 2014-06-02 08:35:08 +0530 (Mon, 02 Jun 2014) | 1 line
+
+LBH mode bug fix in sim62
+------------------------------------------------------------------------
+r117 | (no author) | 2014-06-02 08:06:24 +0530 (Mon, 02 Jun 2014) | 1 line
+
+SiM62 updated with SiM6 changes
+------------------------------------------------------------------------
+r97 | (no author) | 2014-05-01 12:25:49 +0530 (Thu, 01 May 2014) | 1 line
+
+LBH mode activated in SiM61 - making it SiM62
+------------------------------------------------------------------------
+r94 | (no author) | 2014-03-29 13:12:30 +0530 (Sat, 29 Mar 2014) | 1 line
+
+bin/setup_home.sh modified
+------------------------------------------------------------------------
+r92 | (no author) | 2014-03-25 17:12:10 +0530 (Tue, 25 Mar 2014) | 1 line
+
+Offset gain parameter included in IZ spectro window display
+------------------------------------------------------------------------
+r91 | (no author) | 2014-03-25 16:28:57 +0530 (Tue, 25 Mar 2014) | 1 line
+
+IV sspectro window opens in point mode by default
+------------------------------------------------------------------------
+r88 | (no author) | 2014-03-19 11:04:01 +0530 (Wed, 19 Mar 2014) | 1 line
+
+Use Manual updated with t-connector LIA-nanoREV interface diagram
+------------------------------------------------------------------------
+r87 | (no author) | 2014-03-19 10:43:20 +0530 (Wed, 19 Mar 2014) | 1 line
+
+sim software version in About window simplified to single digit
+------------------------------------------------------------------------
+r86 | (no author) | 2014-03-19 10:27:00 +0530 (Wed, 19 Mar 2014) | 1 line
+
+setup_sim.py file in bin folder modified. lib/*.py files are not added to global python path
+------------------------------------------------------------------------
+r85 | (no author) | 2014-03-19 10:25:14 +0530 (Wed, 19 Mar 2014) | 1 line
+
+LIA LPF stage of 10ms added in place of 1sec
+------------------------------------------------------------------------
+r83 | (no author) | 2014-03-13 15:32:16 +0530 (Thu, 13 Mar 2014) | 1 line
+
+Standard images for LBH and LDOS for gold samples added
+------------------------------------------------------------------------
+r78 | (no author) | 2014-03-12 12:57:16 +0530 (Wed, 12 Mar 2014) | 1 line
+
+User manual updated
+------------------------------------------------------------------------
+r77 | (no author) | 2014-03-12 11:06:38 +0530 (Wed, 12 Mar 2014) | 1 line
+
+Auto Correct Offset of XLIA module updated
+------------------------------------------------------------------------
+r75 | (no author) | 2014-03-07 13:52:58 +0530 (Fri, 07 Mar 2014) | 1 line
+
+BUG-FIX check only forst 3 characters of dev id in stm6.py, modify LIA step-delays
+------------------------------------------------------------------------
+r74 | (no author) | 2014-03-03 15:15:55 +0530 (Mon, 03 Mar 2014) | 1 line
+
+The pop-up dialogs for x/y & z calibration utilities directed to right parent windows
+------------------------------------------------------------------------
+r73 | (no author) | 2014-03-03 14:36:39 +0530 (Mon, 03 Mar 2014) | 1 line
+
+LIA delay steps made uniform upto 32ms in steps of 1ms in stm6.py
+------------------------------------------------------------------------
+r72 | (no author) | 2014-03-01 14:48:51 +0530 (Sat, 01 Mar 2014) | 1 line
+
+BUG_FIX: cPickle module missing in quicklaunch.py
+------------------------------------------------------------------------
+r67 | (no author) | 2014-01-17 12:16:26 +0530 (Fri, 17 Jan 2014) | 1 line
+
+The import lines modified to pep8 style
+------------------------------------------------------------------------
+r66 | (no author) | 2014-01-13 11:10:19 +0530 (Mon, 13 Jan 2014) | 1 line
+
+Spectroscopy made compatible to old data - normalization optional
+------------------------------------------------------------------------
+r65 | (no author) | 2013-11-27 12:18:08 +0530 (Wed, 27 Nov 2013) | 1 line
+
+Navigator module modified for floating point step size as in sim6
+------------------------------------------------------------------------
+r64 | (no author) | 2013-11-15 15:44:36 +0530 (Fri, 15 Nov 2013) | 1 line
+
+Updated user manual added to the repository
+------------------------------------------------------------------------
+r63 | (no author) | 2013-11-14 16:35:18 +0530 (Thu, 14 Nov 2013) | 1 line
+
+logger folder removed
+------------------------------------------------------------------------
+r62 | (no author) | 2013-11-14 16:25:53 +0530 (Thu, 14 Nov 2013) | 6 lines
+
+* Movie Window made non-modal, as regular dialog windows.
+* Movie splitting feature added in movie mode
+* lib/tkStatusBar.py fixed 
+* pickle module replace by cPickle in SiM
+* traces of infobox removed, (app_)infobox.py removed
+
+------------------------------------------------------------------------
+r61 | (no author) | 2013-11-13 10:29:32 +0530 (Wed, 13 Nov 2013) | 1 line
+
+syntax of libftdi rules in bin/setup_sim.sh corrected
+------------------------------------------------------------------------
+r60 | (no author) | 2013-11-12 17:45:25 +0530 (Tue, 12 Nov 2013) | 5 lines
+
+* CRO made a part of main window.
+* CRO removed from toolbar
+* Infobox removed from the main window.
+TODO: Infobox traces to be systematically removed
+
+------------------------------------------------------------------------
+r59 | (no author) | 2013-11-11 16:50:04 +0530 (Mon, 11 Nov 2013) | 2 lines
+
+* Checkbox tdded to the offset settings window to activate/deactivate Global Tip Locator.
+
+------------------------------------------------------------------------
+r58 | (no author) | 2013-11-11 15:23:51 +0530 (Mon, 11 Nov 2013) | 2 lines
+
+* BUG_FIX: The scan at the minimal step was not showing. Step-size round off error removed.
+
+------------------------------------------------------------------------
+r57 | (no author) | 2013-11-09 15:41:24 +0530 (Sat, 09 Nov 2013) | 6 lines
+
+* After scanning in CH mode, the scan finishes with mode switched back to CC mode (for tip-safety).
+* HiRes Scans for LDOS mode activated (upper image limit is 550 pixels).
+* Movie Mode in LDOS mode activated.
+* BUG_FIX : Movie Mode scan error fixed.
+* 'litho' pulse re-linked to driver command in stm6.py +/-100V pulses with 1ms accuracy tested.
+
+------------------------------------------------------------------------
+r56 | (no author) | 2013-10-12 17:18:29 +0530 (Sat, 12 Oct 2013) | 1 line
+
+HiRes scan upto 750 x 750 pixels implemented withj ADDON card
+------------------------------------------------------------------------
+r55 | (no author) | 2013-10-12 13:02:42 +0530 (Sat, 12 Oct 2013) | 1 line
+
+tkValidatingEntry.py in SiM6 made similar to that of SiM5
+------------------------------------------------------------------------
+r53 | (no author) | 2013-10-05 11:54:23 +0530 (Sat, 05 Oct 2013) | 1 line
+
+nanoREV6 Walker module modified - all t.c. read from SPI ADC instead of parallel ADC
+------------------------------------------------------------------------
+r49 | (no author) | 2013-09-06 16:33:14 +0530 (Fri, 06 Sep 2013) | 2 lines
+
+* BUG FIX: CorrectZOffset for NPOL piezo rectified for new nanoREV6 hardware
+
+------------------------------------------------------------------------
+r48 | (no author) | 2013-09-04 13:59:20 +0530 (Wed, 04 Sep 2013) | 1 line
+
+One reference LDOS image added to the standard nanoREV image folder
+------------------------------------------------------------------------
+r47 | (no author) | 2013-09-04 12:55:27 +0530 (Wed, 04 Sep 2013) | 3 lines
+
+* Integeration Time constants changed to 2ms and 5ms (1s optioned removed from LIA for STM)
+* Lithography Utility active and bias voltage spike range now +/-100V
+
+------------------------------------------------------------------------
+r46 | (no author) | 2013-08-30 16:32:10 +0530 (Fri, 30 Aug 2013) | 3 lines
+
+* User manual updated with SiM6
+* About window updated
+
+------------------------------------------------------------------------
+r45 | (no author) | 2013-08-21 17:33:10 +0530 (Wed, 21 Aug 2013) | 3 lines
+
+* Unicode characters for Angstroms and microns used
+* IZ Spectroscopy Window design modified
+
+------------------------------------------------------------------------
+r44 | (no author) | 2013-08-21 16:19:50 +0530 (Wed, 21 Aug 2013) | 2 lines
+
+* I-Z spectroscopy module modified for 16-bit DAC
+
+------------------------------------------------------------------------
+r43 | (no author) | 2013-08-13 15:20:16 +0530 (Tue, 13 Aug 2013) | 3 lines
+
+* Normalized plotting of dI/dV enabled,
+* A sample dI/dV plot of HOPG added in the repo - didv_hopg_01.nrviv
+
+------------------------------------------------------------------------
+r42 | (no author) | 2013-08-12 13:20:26 +0530 (Mon, 12 Aug 2013) | 1 line
+
+Stray LBH GUI callbacks commented
+------------------------------------------------------------------------
+r40 | (no author) | 2013-08-09 18:21:23 +0530 (Fri, 09 Aug 2013) | 1 line
+
+Normalized dI/dV plots enabled
+------------------------------------------------------------------------
+r39 | (no author) | 2013-08-09 16:57:02 +0530 (Fri, 09 Aug 2013) | 5 lines
+
+* Lockin Parameters saved along with dIdV images
+* Constants moved from app_xlia.py to xlia.py for XLIA
+* New files xliastatus.log added in log directory to detect LIA active state between different modules.
+* Each LIA parameters in change saved in the xlia.log
+
+------------------------------------------------------------------------
+r38 | (no author) | 2013-08-05 18:05:42 +0530 (Mon, 05 Aug 2013) | 3 lines
+
+* delay steps in scanner made more accurate
+* auto-updating of XLIA output enabled 
+
+------------------------------------------------------------------------
+r37 | (no author) | 2013-08-02 18:52:03 +0530 (Fri, 02 Aug 2013) | 1 line
+
+Lock-In integerated with nanoREV
+------------------------------------------------------------------------
+r36 | (no author) | 2013-07-29 18:14:57 +0530 (Mon, 29 Jul 2013) | 1 line
+
+Timeout in stm6.py increased from 0.3s to 5s
+------------------------------------------------------------------------
+r34 | (no author) | 2013-07-16 18:41:34 +0530 (Tue, 16 Jul 2013) | 4 lines
+
+* 'Invert' and 'save as jpg' options on the image context menu for multi-channel images are now working.
+* Scale-bars canvas space inserted on all channels.
+* 
+
+------------------------------------------------------------------------
+r33 | (no author) | 2013-07-15 17:43:49 +0530 (Mon, 15 Jul 2013) | 2 lines
+
+* Multi-channel spectroscopy-data export to ASCII option working now 
+
+------------------------------------------------------------------------
+r32 | (no author) | 2013-07-15 10:34:28 +0530 (Mon, 15 Jul 2013) | 2 lines
+
+* 'Original' option in the image context menu (right click on the image) restored for multi-channel imaging.
+
+------------------------------------------------------------------------
+r31 | (no author) | 2013-07-13 14:42:49 +0530 (Sat, 13 Jul 2013) | 2 lines
+
+* The delay/step values varies according to the mode selected, msec in case of LDOS & LBH and usec in case of CC & CH
+
+------------------------------------------------------------------------
+r30 | (no author) | 2013-07-12 18:40:49 +0530 (Fri, 12 Jul 2013) | 2 lines
+
+* The delay/step values varies according to the mode selected, msec in case of LDOS & LBH and usec in case of CC & CH
+
+------------------------------------------------------------------------
+r29 | (no author) | 2013-07-11 15:00:50 +0530 (Thu, 11 Jul 2013) | 4 lines
+
+* IV-Spectroscopy mode also supports simultaneous data acqisition (grid mode to be phased out..put on hold)
+* Long pending TODO resolved: GUI frame freezes to indicate gradual update of the bias & tunneling current change (Thanks to Sachin)
+* Another long pending TODO resolved: Line extraction window remained open after application closing, now its taken care of.
+
+------------------------------------------------------------------------
+r28 | (no author) | 2013-07-03 13:01:08 +0530 (Wed, 03 Jul 2013) | 4 lines
+
+* In the 'Init' dialog setpoint front panel pot image removed
+* Two new modes - LDOS and LBH added
+* Simultaneous scan feature enabled for LDOS and LBH mode
+
+------------------------------------------------------------------------
+r27 | (no author) | 2013-06-04 16:06:18 +0530 (Tue, 04 Jun 2013) | 3 lines
+
+* DAC steps in daq.py changed to float
+* Scan signal generation tested
+
+------------------------------------------------------------------------
+r26 | (no author) | 2013-05-27 14:05:20 +0530 (Mon, 27 May 2013) | 1 line
+
+New command to launch application for nanoREV6 - sim6, with new library stm6.py
+------------------------------------------------------------------------
+r25 | (no author) | 2013-05-17 12:30:53 +0530 (Fri, 17 May 2013) | 1 line
+
+xlog, ylog, and zlog files have been added to the log folder.
+------------------------------------------------------------------------
+r23 | (no author) | 2013-05-17 12:15:05 +0530 (Fri, 17 May 2013) | 1 line
+
+A new branch, named SiM6, has been created.
+------------------------------------------------------------------------
+r22 | (no author) | 2013-05-17 12:13:29 +0530 (Fri, 17 May 2013) | 1 line
+
+All folders have been moved to trunk.
+------------------------------------------------------------------------

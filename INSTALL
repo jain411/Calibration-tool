@@ -1,0 +1,43 @@
+####################################################
+INSTALLING FROM SiM Installer CD
+####################################################
+
+- Copy all contents of the CD to the Downloads folder.
+
+####################################################
+INSTALLING SUPPORTING DEBIAN PACKAGES
+####################################################
+- Install the ubuntu packages from Quazar CD:
+	* cd ~/Downloads/deb_packages
+	* sudo dpkg -i *.deb
+		- Enter user password to proceed
+(Dependency packages for SiM68 software are : python-tk python-numpy python-imaging-tk python-scipy python-matplotlib libftdi1 libftdi-dev swig python-opencv mayavi2 python-vtk)
+
+####################################################
+INSTALLING LOCKIN SOFTWARE
+####################################################
+- Go to the latest LOCKIN software location:
+	* cd ~/Downloads/qt_packages/libxlia/XLIA-2/tag/latest
+	* make wrapper
+	* sudo make install
+		- Enter user password to proceed
+
+####################################################
+INSTALLING nanoREV SiM68 SOFTWARE
+####################################################
+- Go to the latest LOCKIN software location:
+	* cd ~/Downloads/qt_packages/SiM721
+	* sudo /bin/bash bin/install.sh
+		- Enter user password to proceed
+
+####################################################
+TESTING
+####################################################
+- Connect the Controller Electronic Box with the USB and power it on.
+- Run sim6 command on the terminal.
+- Click on FORWARD and BACKWARD buttons and see if the LCD on the controller changes it accordingly.
+
+Happy simming!
+
+Joshua Mathew
+Quazar Technologies

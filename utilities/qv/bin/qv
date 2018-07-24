@@ -1,0 +1,6 @@
+INSTALL_PATH=/usr/local/stm
+path=$PWD
+CUR_VER=`ls -p ${INSTALL_PATH} | grep "SiM"`
+pushd /usr/stm/${CUR_VER}utilities/qv 1> /dev/null
+python qv.py $1 ${path}
+popd 1> /dev/null 

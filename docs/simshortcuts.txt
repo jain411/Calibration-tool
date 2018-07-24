@@ -1,0 +1,22 @@
+
+Main Window Shortcuts
+Help	F1
+Initial Settings	Ctrl+i
+Open Image ile	Ctrl+o
+Open CRO	Ctrl+c
+Save	Ctrl+s
+Start Scan	Ctrl+t
+Stop Scan	Ctrl+p
+Filter	Ctrl+f
+Area Settting	Ctrl+a
+Lithography	Ctrl+l
+IV Spectroscopy	Ctrl+v
+Correct Z-Offset	Ctrl+z
+Navigator	Ctrl+n
+Movie	Ctrl+m
+
+CRO Shortcuts
+Increase/Decrease Volts/Div	Right/Left Arrow
+
+Z-Calibration Tool Shortcuts
+Open Image file	Ctrl+o
